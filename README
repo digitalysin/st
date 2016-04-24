@@ -1,0 +1,18 @@
+how to use
+
+export CONNECTION_STRING = "postgres://username:password@localhost/db_name"
+
+# to run server
+npm start
+
+and visit http://localhost:9000
+
+# to run test
+npm test
+
+to migrate schema, run pgsql your_db_name -f db/migrate.sql
+
+make sure database is different between test, development and production
+
+don't forget to run npm install
+

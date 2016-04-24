@@ -1,0 +1,27 @@
+{
+  "name": "st",
+  "version": "1.0.0",
+  "description": "...",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node_modules/mocha/bin/mocha test/index.js"
+  },
+  "author": "Galih Widyarta",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "boom": "^3.1.2",
+    "chance": "^1.0.0",
+    "good": "^6.6.0",
+    "good-console": "^5.3.1",
+    "hapi": "^13.0.0",
+    "hapi-boom-decorators": "^1.1.2",
+    "joi": "^7.2.3",
+    "lodash": "^4.3.0",
+    "massive": "^2.1.0",
+    "md5": "^2.0.0",
+    "mocha": "^2.4.5",
+    "node-cmd": "^1.1.1",
+    "request": "^2.72.0"
+  }
+}
